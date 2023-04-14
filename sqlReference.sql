@@ -44,7 +44,7 @@ update employees SET salary = CASE
  WHEN salary < 5000000 THEN ROUND(salary*1.1)
 END
 
-select *,CURDATE() from customers;
+select *,CURDATE() from stomers;
 INSERT INTO customers VALUES (101,"名無権兵衛",0,CURDATE());
 
 
